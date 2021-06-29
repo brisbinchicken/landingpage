@@ -19,6 +19,8 @@
 }
 
 html {
+    color: var(--color-primary);
+    background: var(--bg-primary);
     background-position:center;
     background-image: url("./background.jpg");
 }
@@ -39,7 +41,7 @@ h1, h2 {
     padding: 0;
 }
 
-h3, h4 {
+h3, h4 { 
     text-transform: uppercase;
     text-align: left;
     color: var(--color-primary);
